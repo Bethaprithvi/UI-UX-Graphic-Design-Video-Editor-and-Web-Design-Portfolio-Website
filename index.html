@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betha Prithvi | Portfolio Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+    } */
+
+    body {
+        background: linear-gradient(135deg, #f9f9f9, #e6e9f0);
+        background-image: url("https://www.transparenttextures.com/patterns/white-wall.png");
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #ffffff;
+    }
+
+    .custom-link {
+      color: #0e54e2;
+      font-weight: 600;
+    }
+
+    .custom-link:hover {
+      color: #242424;
+      text-decoration: underline;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(to right, #e3f2fd, #ffffff),
+        url('background.jpg') center/cover no-repeat;
+      text-align: center;
+      padding: 140px 20px 200px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #0e54e2;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .hero .btn {
+      margin: 10px;
+      padding: 12px 25px;
+      font-weight: 600;
+      border-radius: 30px;
+    }
+
+    /* Section title */
+    .section-title {
+      font-weight: 700;
+      margin: 50px 0 30px;
+      text-align: center;
+      color: #0e54e2;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #0e54e2;
+      display: block;
+      margin: 10px auto;
+    }
+
+    /* Skills */
+    .skill-card {
+      border-radius: 15px;
+      padding: 20px;
+      background: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Portfolio */
+    .portfolio-card {
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .portfolio-card:hover {
+      transform: scale(1.05);
+    }
+
+    .portfolio-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #0e1a2b;
+      color: #ccc;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #ccc;
+      margin: 0 12px;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    .footer a:hover {
+      color: #0e54e2;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-dark fs-4" href="#">Betha Prithvi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-3">
+          <li class="nav-item"><a class="nav-link custom-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link custom-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link custom-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h1>Hey there! I am Prithvi</h1>
+      <p>UI/UX Designer | Graphic Designer | Video Editor | Web Designer</p>
+      <a href="BETHA PRITHVI RESUME UPDATED/BETHA_PRITHVI_PORTFOLIO_AND_RESUME_2025_2.pdf" class="btn btn-primary">Download Resume</a>
+      <a href="contact.html" class="btn btn-outline-dark">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container py-5">
+    <h2 class="section-title">Skills</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-3">
+        <div class="skill-card">
+          <i class="bi bi-brush fs-1 text-primary"></i>
+          <h5 class="mt-3">Adobe Photoshop</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-card">
+          <i class="bi bi-palette fs-1 text-primary"></i>
+          <h5 class="mt-3">Adobe Illustrator</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-card">
+          <i class="bi bi-layout-text-window fs-1 text-primary"></i>
+          <h5 class="mt-3">Figma & UI/UX</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-card">
+          <i class="bi bi-layout-text-window fs-1 text-primary"></i>
+          <h5 class="mt-3">Visual Studio Code</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-card">
+          <i class="bi bi-film fs-1 text-primary"></i>
+          <h5 class="mt-3">Adobe Premier Pro</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="skill-card">
+          <i class="bi bi-film fs-1 text-primary"></i>
+          <h5 class="mt-3">Adobe After Effects</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="container py-5">
+    <h2 class="section-title">Portfolio</h2>
+    <h4 class="card-title text-center mb-3"> Graphic Design </h4>
+    
+    <!-- Row1 -->
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/My poster design 2.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal1">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project Modal1 -->
+        <div class="modal fade" id="projectModal1" tabindex="-1">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/My poster design 2.jpg" class="img-fluid">
+                <p class="mt-3"> Movie Poster (Photoshop)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/my poster design 3.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal2">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/my poster design 3.jpg" class="img-fluid">
+                <p class="mt-3"> Food Advertisement Poster (Photoshop)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/lays packet mockup blank.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal3">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/lays packet mockup blank.jpg" class="img-fluid">
+                <p class="mt-3"> Lays packet mockup design (Photoshop)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row2 -->
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/shoe mockup blank.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal4">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project Modal4 -->
+        <div class="modal fade" id="projectModal4" tabindex="-1">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/shoe mockup blank.jpg" class="img-fluid">
+                <p class="mt-3"> Shoe mockup design (Photoshop)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/Bengaluru poster and logo design illustrator by prithvi betha.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal5">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal5 -->
+    <div class="modal fade" id="projectModal5" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/Bengaluru poster and logo design illustrator by prithvi betha.jpg" class="img-fluid">
+                <p class="mt-3"> Bengaluru: A Canvas of Culture, Color, and Character design (Illustrator)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/Bottle typography illustrator by prithvi betha.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal6">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal6 -->
+    <div class="modal fade" id="projectModal6" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/Bottle typography illustrator by prithvi betha.jpg" class="img-fluid">
+                <p class="mt-3">Typography Design (Illustrator)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Row3  -->
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/Ganesh Chaturthi 2025 edit_final3_screenshot.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal7">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project Modal7 -->
+        <div class="modal fade" id="projectModal7" tabindex="-1">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/Ganesh Chaturthi 2025 edit_final3_screenshot.png" class="img-fluid">
+                <p class="mt-3"> Ganesh Chaturthi 2025 edit design (Photoshop)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/Teachers Day poster (3).jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal8">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal8 -->
+    <div class="modal fade" id="projectModal8" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/Teachers Day poster (3).jpg" class="img-fluid">
+                <p class="mt-3"> Teachers Day poster design (Photoshop)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/POWER SAVING QUIZ.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal9">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal9 -->
+    <div class="modal fade" id="projectModal9" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/POWER SAVING QUIZ.jpg" class="img-fluid">
+                <p class="mt-3">Social Media Design (Photoshop)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Row4  -->
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/AMC OF HT LT Equipment Design_4.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal10">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project Modal10 -->
+        <div class="modal fade" id="projectModal10" tabindex="-1">
+          <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/AMC OF HT LT Equipment Design_4.jpg" class="img-fluid">
+                <p class="mt-3"> AMC OF HT LT Equipment Design (Photoshop)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/Poster1_final.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal11">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal11 -->
+    <div class="modal fade" id="projectModal11" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/Poster1_final.jpg" class="img-fluid">
+                <p class="mt-3"> Social Media ads post design (Photoshop)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Images/Poster11_5_1.jpg" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal12">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal12 -->
+    <div class="modal fade" id="projectModal12" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Images/Poster11_5_1.jpg" class="img-fluid">
+                <p class="mt-3">Energy tip social media post Design (Photoshop)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <h4 class="card-title text-center mb-3"> UI UX </h4>
+    <h5 class="card-title text-center mb-3"> Movies app UI Design </h5>
+    <p class="text-center mb-3 "> An user-friendly interface for discovering and exploring movies, 
+    providing users with seamless navigation and personalized recommendations.
+    This responsive design enhances the movie-watching experience by connecting users with their favorite films. </p>
+    
+    <!-- Row1 -->
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Movies app UI Design/Wireframing.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal13">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project Modal13 -->
+        <div class="modal fade" id="projectModal13" tabindex="-1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Movies app UI Design/Wireframing.png" class="img-fluid">
+                <p class="mt-3"> Wireframing (Figma)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Movies app UI Design/Prototyping.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal14">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal14 -->
+    <div class="modal fade" id="projectModal14" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Movies app UI Design/Prototyping.png" class="img-fluid">
+                <p class="mt-3"> Prototyping (Figma)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Movies app UI Design/Typography.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal15">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal15 -->
+    <div class="modal fade" id="projectModal15" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Movies app UI Design/Typography.png" class="img-fluid">
+                <p class="mt-3"> Typography (Figma)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row2 -->
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Movies app UI Design/Icons 1.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal16">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project Modal16 -->
+        <div class="modal fade" id="projectModal16" tabindex="-1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Movies app UI Design/Icons 1.png" class="img-fluid">
+                <p class="mt-3"> Icons (Figma)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Movies app UI Design/Buttons and Backgrounds 1.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal17">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal17 -->
+    <div class="modal fade" id="projectModal17" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Movies app UI Design/Buttons and Backgrounds 1.png" class="img-fluid">
+                <p class="mt-3"> Buttons (Figma)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-4">
+        <div class="portfolio-card">
+          <img src="Movies app UI Design/Buttons and Backgrounds 2.png" class="img-fluid portfolio-img mb-2" data-bs-toggle="modal" data-bs-target="#projectModal6">
+          <div class="p-3">
+            <h6> Click to view full screen</h6>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Modal18 -->
+    <div class="modal fade" id="projectModal6" tabindex="-1">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="Movies app UI Design/Buttons and Backgrounds 2.png" class="img-fluid">
+                <p class="mt-3">Backgrounds (Figma)</p>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+    <hr class="divider">
+
+    <section id="video" class="container mt-5 py-5">
+        <h2 class="section-title">Video Editing</h2>
+
+        <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4">
+        <div class="card p-3">
+
+          <video class="w-100" controls>
+            <source src="Videos/Day to night effect by prithvi.mp4" type="video/mp4">
+          </video>
+          <p class="mt-3"> Day to Night Effect </p>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card p-3">
+
+          <video class="w-100" controls>
+            <source src="Videos/Pushpa cinematic style prithvi betha.mp4" type="video/mp4">
+          </video>
+          <p class="mt-3"> Cinematic Intro Effect </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+
+          <video class="w-100" controls>
+            <source src="Videos/Pawan kalyan comeback edit prithvi.mp4" type="video/mp4">
+          </video>
+          <p class="mt-3"> Motivated speech with elevated shot effect </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+
+          <video class="w-100" controls>
+            <source src="Videos/Athadu movie title song effect with particle and flicker elevation edit prithvi.mp4" type="video/mp4">
+          </video>
+          <p class="mt-3"> In this video first 5 seconds I take it as a reference from Mahesh Babu's Athadu movie title song and 
+            added matchcut with low angle shot and last shot is fade transition </p>
+        </div>
+      </div> 
+      
+      <div class="col-md-4">
+        <div class="card p-3">
+
+          <video class="w-100" controls>
+            <source src="Videos/OG edit prithvi 2.mp4" type="video/mp4">
+          </video>
+          <p class="mt-3"> Taking the original and recreated in my own style </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+
+          <video class="w-100" controls>
+            <source src="Videos/Hello Power Independence day wishes 2025 final_3.mp4" type="video/mp4">
+          </video>
+          <p class="mt-3"> Independence Day wishes with animation </p>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="mb-2">&copy; 2025 Betha Prithvi | All Rights Reserved</p>
+    <a href="https://www.linkedin.com/in/betha-prithvi-98359b1a7"><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.instagram.com/bethaprithvi/"><i class="bi bi-instagram"></i></a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
